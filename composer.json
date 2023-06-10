@@ -1,0 +1,22 @@
+{
+    "name": "emad-mohammed/whm-api",
+    "description": "WHM & Cpanel API with PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EmadMohammed\\WHMAPI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emad Mohammed",
+            "email": "admin@omdda.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+      "ext-json": "*"
+    }
+
+}
